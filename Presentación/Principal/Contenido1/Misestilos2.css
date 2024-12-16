@@ -44,9 +44,34 @@ body {
         }
         .buttons {
             display: flex;
-            justify-content: space-between;
-            margin-top: 1rem;
+            gap: 15px; 
+            justify-content: center; 
+            margin: 20px 0; 
         }
+        
+        .button {
+            text-decoration: none;
+            color: white; 
+            background-color: #4CAF50; 
+            padding: 10px 20px; 
+            border-radius: 25px; 
+            font-size: 16px;
+            font-weight: bold; 
+            transition: background-color 0.3s, transform 0.2s;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+        }
+        
+        .button:hover {
+            background-color: #45a049; 
+            transform: scale(1.05); 
+        }
+        
+        .button:active {
+            background-color: #3e8e41; 
+            transform: scale(0.95); 
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); 
+        }
+        
         .buttons a {
             background: #4caf50;
             color: #fff;
